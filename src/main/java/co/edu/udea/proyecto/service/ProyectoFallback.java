@@ -10,4 +10,9 @@ public class ProyectoFallback implements ProyectoClient {
         //lo que quieras hacer.
         return "Falle pero no te preocupes";
     }
+
+    @Override
+    public String otroLllamado() {
+        return null;
+    }
 }

@@ -21,7 +21,7 @@ public class UsuarioController {
     public String consultarUsuarios(){
         //Llame a la consulta
 
-        //RIBBON
+        //LoadBalancer
         String project = proyecto.getProject();
         return "Consulte Usuarios, la respuesta del cliente feing fue "+project;
     }

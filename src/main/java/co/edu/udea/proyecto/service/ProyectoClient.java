@@ -13,5 +13,6 @@ public interface ProyectoClient {
     @GetMapping(path = "/proyecto/consultar")
     String getProject();
 
-
+    @GetMapping(path = "/proyecto/otrollamado")
+    String otroLllamado();
 }
